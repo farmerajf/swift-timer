@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		66F7572428B7590900AB1B4A /* TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7572328B7590900AB1B4A /* TimerApp.swift */; };
-		66F7572628B7590900AB1B4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7572528B7590900AB1B4A /* ContentView.swift */; };
 		66F7572828B7590D00AB1B4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F7572728B7590D00AB1B4A /* Assets.xcassets */; };
 		66F7572B28B7590D00AB1B4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F7572A28B7590D00AB1B4A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,10 +15,10 @@
 /* Begin PBXFileReference section */
 		66F7572028B7590900AB1B4A /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F7572328B7590900AB1B4A /* TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerApp.swift; sourceTree = "<group>"; };
-		66F7572528B7590900AB1B4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66F7572728B7590D00AB1B4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66F7572A28B7590D00AB1B4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66F7572C28B7590D00AB1B4A /* Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Timer.entitlements; sourceTree = "<group>"; };
+		66F7573428B7715D00AB1B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +51,8 @@
 		66F7572228B7590900AB1B4A /* Timer */ = {
 			isa = PBXGroup;
 			children = (
+				66F7573428B7715D00AB1B4A /* Info.plist */,
 				66F7572328B7590900AB1B4A /* TimerApp.swift */,
-				66F7572528B7590900AB1B4A /* ContentView.swift */,
 				66F7572728B7590D00AB1B4A /* Assets.xcassets */,
 				66F7572C28B7590D00AB1B4A /* Timer.entitlements */,
 				66F7572928B7590D00AB1B4A /* Preview Content */,
@@ -139,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66F7572628B7590900AB1B4A /* ContentView.swift in Sources */,
 				66F7572428B7590900AB1B4A /* TimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +263,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = Timer/Timer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -274,6 +273,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Timer/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = Timer/Timer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -301,6 +302,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Timer/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
